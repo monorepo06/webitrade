@@ -1,0 +1,42 @@
+{
+  "name": "lumen-exchange-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for Lumen Exchange",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "migrate:testnet": "truffle migrate --network testnet",
+    "migrate:mainnet": "truffle migrate --network mainnet",
+    "deploy": "truffle deploy",
+    "console": "truffle console",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "coverage": "truffle run coverage",
+    "size": "truffle run contract-size",
+    "verify": "truffle run verify",
+    "flatten": "truffle-flattener contracts/LumenExchange.sol > flattened/LumenExchange.sol"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "defi",
+    "exchange",
+    "trading",
+    "solidity"
+  ],
+  "author": "Lumen Exchange Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "truffle": "^5.11.5",
+    "truffle-flattener": "^1.5.0",
+    "solhint": "^4.0.0",
+    "solidity-coverage": "^0.8.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
