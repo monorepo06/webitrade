@@ -1,4 +1,4 @@
-# Webisoft - WebiTrade
+# Decentralized Trading Platform - WebiTrade
 
 WebiTrade is a modern decentralized trading platform built with a full-stack approach, combining a React/TypeScript frontend, Solidity smart contracts, and a Node.js/Express backend. The platform offers a seamless trading experience, advanced analytics, wallet management, and robust security features.
 
